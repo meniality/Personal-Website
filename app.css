@@ -1,0 +1,11 @@
+body {
+  background-image: url('./resources/images/headerBackground.jpg');
+  background-size: cover;
+}
+
+h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
