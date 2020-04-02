@@ -20,12 +20,17 @@ nav{
   height: 54px;
   width: 215px;
   background-color: hsl(201, 13%, 90%);
-  border-radius: 5px;
-  font-size: large;
+  font-size: 1.8rem ;
   border-style: none;
+  font-family: 'Caladea', serif;
+  border-right: solid;
+  border-left: solid;
+  border-width: 1px;
+  margin-left: -5px;
 }
 .nav-button:hover{
-  background-color: hsl(240, 0%, 58%);
+  background-color: hsl(210, 6%, 75%);
+  border-width: 2px;
 }
 h3{
   display: flex;
