@@ -4,7 +4,7 @@ body, html{
 }
 
 main{
-  background-image: linear-gradient(to bottom right, hsl(236, 7%, 47%), hsl(201, 13%, 90%));
+  background-image: linear-gradient(to bottom right, hsl(219, 23%, 55%), hsl(201, 13%, 90%));
   background-size: cover;
   width: 100%;
   height: 40rem;
@@ -16,23 +16,24 @@ main{
   padding: 1px;
   background-color: hsla(0, 0%, 93%, 0.795);
   padding-left: 41px;
-  font-family: 'Caladea', serif;
+  font-family: 'Adamina', serif;
   color: rgb(70, 70, 70);
 }
 nav{
-  height: 55px;
+  height: 3rem;
   background-color:hsl(201, 13%, 90%);
   margin-top: 8px;
-  padding-left: 10px;
+  margin-left: 8px;
+  margin-right: 62px;
 }
 .nav-button{
-  height: 54px;
-  width: 215px;
+  height: 100%;
+  width: 20%;
   background-color: hsl(201, 13%, 90%);
   color: rgb(70, 70, 70);
-  font-size: 1.8rem ;
+  font-size: 1.2rem ;
   border-style: none;
-  font-family: 'Caladea', serif;
+  font-family: 'Adamina', serif;
   border-right: solid;
   border-left: solid;
   border-width: 1px;
@@ -47,4 +48,10 @@ nav{
   width: 25rem;
   height: 25rem;
   border-radius: 200px;
+  margin-top: 2rem;
+}
+
+#profile-pic-container{
+  display: flex;
+  justify-content: center;
 }
