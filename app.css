@@ -8,9 +8,8 @@ main{
   background-size: cover;
   width: 100%;
   height: 40rem;
-
-
 }
+
 #name-plate{
   margin-bottom: -8px;
   padding: 1px;
@@ -19,13 +18,15 @@ main{
   font-family: 'Adamina', serif;
   color: rgb(70, 70, 70);
 }
+
 nav{
   height: 3rem;
   background-color:hsl(201, 13%, 90%);
   margin-top: 8px;
-  margin-left: 8px;
-  margin-right: 62px;
+  display: flex;
+  justify-content: space-evenly;
 }
+
 .nav-button{
   height: 100%;
   width: 20%;
@@ -37,12 +38,13 @@ nav{
   border-right: solid;
   border-left: solid;
   border-width: 1px;
-  margin-left: -5px;
 }
+
 .nav-button:hover{
   background-color: hsl(210, 6%, 75%);
   border-width: 2px;
 }
+
 #main-page-profile-pic{
   object-fit: cover;
   width: 25rem;
