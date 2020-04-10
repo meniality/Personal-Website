@@ -78,6 +78,10 @@ p{
   text-align: center;
 }
 
+#icon-div{
+  display: flex;
+}
+
 .icon:hover{
   opacity: 40%;
 }
